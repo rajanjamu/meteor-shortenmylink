@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Header from './components/header';
 import LinkCreate from './components/link-create';
 import LinkList from './components/link-list';
+import { Links } from '../imports/collections/links';
 
 class App extends Component {
   render() {
