@@ -15,8 +15,4 @@ Meteor.methods({
     }
 });
 
-Meteor.publish(() => {
-    
-})
-
 export const Links = new Mongo.Collection('links');
